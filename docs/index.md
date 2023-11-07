@@ -4,8 +4,8 @@ layout: home
 title: Home
 hero:
   name: "Are you a robot?"
-  text: "Android App"
-  tagline: My great project tagline
+  text: "Prove it!"
+  tagline: Multiplayer memory based game for Android.
   image:
     src: "logo.webp"
     alt: "logo"
