@@ -38,6 +38,13 @@ export default defineConfig({
 
     search: {
       provider: 'local'
+    },
+
+    logo: "logo.webp",
+
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Made by Puntogris'
     }
   }
 })
