@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: Get the app
-      link: /markdown-examples
+      link: https://play.google.com/store/apps/details?id=com.puntogris.areyouarobot
     - theme: alt
       text: See the code
-      link: /api-examples
+      link: https://github.com/puntogris/are-you-a-robot
 
 features:
   - title: Open source
