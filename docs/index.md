@@ -1,7 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
+title: Home
 hero:
   name: "Are you a robot?"
   text: "Android App"
@@ -25,7 +25,6 @@ features:
   - title: Rankings
     details: Climb the ladder to be the best
 ---
-
 
 <h1 class="font-bold text-lg text-center mt-12">Screens</h1>
 <div class="grid sm:grid-cols-3 max-w-5xl mx-auto gap-2 mt-4 grid-cols-1 sm:px-4 px-24">

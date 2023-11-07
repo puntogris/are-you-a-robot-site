@@ -4,8 +4,18 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Are you a robot?",
   description: "Android App",
+  head: [
+    [
+      "script",
+      {},
+      `window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };`,
+    ],
+    ["script", { defer: "", src: "/_vercel/insights/script.js" }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Versions', link: '/versions/' },
@@ -18,7 +28,7 @@ export default defineConfig({
         text: 'Versions',
         items: [
           { text: 'Readme', link: '/versions/' },
-          { text: 'V1.0.0', link: '/versions/v1.0.0.md' },
+          { text: '1.0.0', link: '/versions/v1.0.0.md' },
         ],
       },
       {
