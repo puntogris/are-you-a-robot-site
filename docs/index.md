@@ -27,8 +27,9 @@ features:
 ---
 
 <h1 class="font-bold text-lg text-center mt-12">Screens</h1>
-<div class="grid sm:grid-cols-3 max-w-5xl mx-auto gap-2 mt-4 grid-cols-1 sm:px-4 px-24">
+<div class="grid sm:grid-cols-4 max-w-5xl mx-auto gap-2 mt-4 grid-cols-1 sm:px-4 px-24">
   <img src="/1.webp" />
   <img src="/2.webp" />
   <img src="/3.webp" />
+  <img src="/4.webp" />
 </div>
